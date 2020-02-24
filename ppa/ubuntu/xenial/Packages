@@ -94,10 +94,10 @@ Depends: libdb4.8-dev,
   libboost-test-dev,
   libevent-dev
 Filename: pool/scribe/amd64/scribe-ubuntu-16.04-x64-server.deb
-Size: 9682144
-MD5sum: 974b5c3f01b5a548272507b7dfbb4414
-SHA1: c8d78f43397a792928f855efeb5078ac9f4e9d78
-SHA256: 13629807b923f5e8d98020c30f8ae76ce00a2ac522aa70f3998936faa7e9a78c
+Size: 4737664
+MD5sum: 04a32cd72f23625f1c29964afa8847f9
+SHA1: acb8029cc4e5e0a484f03958170fa956f8b9e649
+SHA256: 7cac6b7ea5ab9b84b12c6a032f05df59dada8409c15f26f887eb8ed839ecf105
 Description:
   Scribe wallet for Ubuntu:16.04 Xenial.
   Package contents scribed, scribe-cli, scribe-tx.
