@@ -95,9 +95,9 @@ Depends: libdb4.8-dev,
   libevent-dev
 Filename: pool/scribe/amd64/scribe-ubuntu-16.04-x64-server.deb
 Size: 4737664
-MD5sum: 04a32cd72f23625f1c29964afa8847f9
-SHA1: acb8029cc4e5e0a484f03958170fa956f8b9e649
-SHA256: 7cac6b7ea5ab9b84b12c6a032f05df59dada8409c15f26f887eb8ed839ecf105
+MD5sum: 49fa13d9f9ee49f774030d80d6ce04d6
+SHA1: 829493baff5475469c2b93de4f82c4279473da10
+SHA256: d4008b8781a331a94aeb2e98ffbb2899ccd92354b12a6662afb12bdd5aed0d06
 Description:
   Scribe wallet for Ubuntu:16.04 Xenial.
   Package contents scribed, scribe-cli, scribe-tx.
@@ -127,10 +127,10 @@ Depends: libdb4.8-dev,
   libprotobuf-dev,
   protobuf-compiler
 Filename: pool/scribe-qt/amd64/scribe-ubuntu-16.04-x64-desktop.deb
-Size: 5411128
-MD5sum: fb4bc2eeec01fdb3d99c31fa49d3e277
-SHA1: 9504d92e0eabcb6db710997105edb9b10cce9fe9
-SHA256: 498f9134142cc68d1748a946e15a2174784ab76329660922a6619587c55d293d
+Size: 5351104
+MD5sum: f297dbf1e6ddf96c155fc26ed236075c
+SHA1: 93587f633a5c82770b7683913bad74c1daecc972
+SHA256: 9b91cac619ae5f5734e2e40cec11216c57a1fc394d9c39b2a3375bf56a8fc5b5
 Description:
   Scribe wallet for Ubuntu:16.04 Xenial.
   Package contents scribe-qt.
