@@ -13,6 +13,7 @@ apt update
 
 ### Add repo Debian 9:
 ```
+apt install apt-transport-https
 wget -qO - https://scribe.network/ppa/debian/stretch/scribe.list > /etc/apt/sources.list.d/scribe.list
 apt update
 ```
