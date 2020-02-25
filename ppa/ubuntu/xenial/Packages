@@ -93,44 +93,11 @@ Depends: libdb4.8-dev,
   libboost-thread-dev,
   libboost-test-dev,
   libevent-dev
-Filename: pool/scribe/amd64/scribe-ubuntu-16.04-x64-server.deb
-Size: 4737664
-MD5sum: 49fa13d9f9ee49f774030d80d6ce04d6
-SHA1: 829493baff5475469c2b93de4f82c4279473da10
-SHA256: d4008b8781a331a94aeb2e98ffbb2899ccd92354b12a6662afb12bdd5aed0d06
-Description:
-  Scribe wallet for Ubuntu:16.04 Xenial.
-  Package contents scribed, scribe-cli, scribe-tx.
-  Wallet version: 120203
-  Protocol version: 70209
-  Commit: caac30158760f65b5430f1901fd9d54c32f2ed15
-  https://github.com/scribenetwork/scribe/tree/v0.2
-  https://scribe.network/
-
-Package: scribe-qt
-Version: 1-v0.2
-Architecture: amd64
-Maintainer: Scribe Network
-Depends: libdb4.8-dev,
-  libdb4.8++-dev,
-  libboost-system-dev,
-  libboost-filesystem-dev,
-  libboost-program-options-dev,
-  libboost-thread-dev,
-  libboost-test-dev,
-  libevent-dev,
-  libqt5gui5,
-  libqt5core5a,
-  libqt5dbus5,
-  qttools5-dev,
-  qttools5-dev-tools,
-  libprotobuf-dev,
-  protobuf-compiler
-Filename: pool/scribe-qt/amd64/scribe-ubuntu-16.04-x64-desktop.deb
-Size: 5351104
-MD5sum: f297dbf1e6ddf96c155fc26ed236075c
-SHA1: 93587f633a5c82770b7683913bad74c1daecc972
-SHA256: 9b91cac619ae5f5734e2e40cec11216c57a1fc394d9c39b2a3375bf56a8fc5b5
+Filename: pool/scribe/amd64/scribe-ubuntu-16.04-x64.deb
+Size: 9680780
+MD5sum: 1de310fc0ad91cf0ec5153ee96053bca
+SHA1: 5f96629cde819d99fc05fd2691f7e84c874ee50f
+SHA256: 37ebd62e9114455bee2b1a3424cdca5f265317de1fc2551b748d25cd45c12ea0
 Description:
   Scribe wallet for Ubuntu:16.04 Xenial.
   Package contents scribe-qt.

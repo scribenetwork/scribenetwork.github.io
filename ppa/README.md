@@ -15,8 +15,3 @@ apt update
 ```
 apt install scribe
 ```
-
-### Desktop GUI (Optional):
-```
-apt install scribe-qt
-```
