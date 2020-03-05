@@ -1,0 +1,109 @@
+Package: libdb4.8
+Source: db4.8
+Version: 4.8.30-bionic3
+Architecture: amd64
+Maintainer: Clint Adams <schizo@debian.org>
+Installed-Size: 1537
+Depends: libc6 (>= 2.17)
+Conflicts: libdb2 (<< 2:2.7.7-3)
+Filename: pool/libdb4.8/amd64/libdb4.8_4.8.30-bionic3_amd64.deb
+Size: 572312
+MD5sum: 138a1ecfb798a191709fbc6499161d03
+SHA1: 92d905db27e7df5457bc4c7f41fea6735a594717
+SHA256: 9a45ca5f1d973c89b47c1bcc56c3ced05243a2871ab742994c7f3556f4631e20
+Section: libs
+Priority: standard
+Homepage: http://www.oracle.com/technology/software/products/berkeley-db/index.html
+Description: Berkeley v4.8 Database Libraries [runtime]
+ This is the runtime package for programs that use the v4.8 Berkeley
+ database library.
+
+Package: libdb4.8++
+Source: db4.8
+Version: 4.8.30-bionic3
+Architecture: amd64
+Maintainer: Clint Adams <schizo@debian.org>
+Installed-Size: 1670
+Depends: libc6 (>= 2.17), libgcc1 (>= 1:3.0), libstdc++6 (>= 5)
+Conflicts: libdb2++ (<< 2:2.7.7-3)
+Filename: pool/libdb4.8++/amd64/libdb4.8++_4.8.30-bionic3_amd64.deb
+Size: 600652
+MD5sum: ae4cbe6846188ec5226abed2084adbbb
+SHA1: d705e7ad453757e41902eae2d9254eab971dc891
+SHA256: b3ddd5da73816484304a747b526039ec143fe70c969168981813461ba4080233
+Section: libs
+Priority: optional
+Homepage: http://www.oracle.com/technology/software/products/berkeley-db/index.html
+Description: Berkeley v4.8 Database Libraries for C++ [runtime]
+ This is the runtime package for programs that use the Berkeley v4.8
+ database library.  This is only for programs which use the C++ interface.
+
+Package: libdb4.8++-dev
+Source: db4.8
+Version: 4.8.30-bionic3
+Architecture: amd64
+Maintainer: Clint Adams <schizo@debian.org>
+Installed-Size: 5586
+Depends: libdb4.8++ (= 4.8.30-bionic3), libdb4.8-dev (= 4.8.30-bionic3)
+Conflicts: libdb++-dev, libdb2++-dev, libdb3++-dev
+Provides: libdb++-dev
+Filename: pool/libdb4.8++-dev/amd64/libdb4.8++-dev_4.8.30-bionic3_amd64.deb
+Size: 662696
+MD5sum: 4c3346212bd7b2428a370dc44b9198e8
+SHA1: 32fc6166175e6e7ede401bf4dd7d70cb0eafbb62
+SHA256: 1c79610e6485a17c5c6e50e136b6c15fbbaa9d6f1b8d13a462fb0eef9e6c50bf
+Section: libdevel
+Priority: extra
+Homepage: http://www.oracle.com/technology/software/products/berkeley-db/index.html
+Description: Berkeley v4.8 Database Libraries for C++ [development]
+ This is the development package which contains headers and static
+ libraries for the Berkeley v4.8 database library.  This is only for
+ programs which will use the C++ interface.
+
+Package: libdb4.8-dev
+Source: db4.8
+Version: 4.8.30-bionic3
+Architecture: amd64
+Maintainer: Clint Adams <schizo@debian.org>
+Installed-Size: 2666
+Depends: libdb4.8 (= 4.8.30-bionic3)
+Suggests: db4.8-doc
+Conflicts: libdb1-dev, libdb2-dev, libdb3-dev, libdb4.2-dev, libdb4.3-dev, libdb4.4-dev, libdb4.5-dev, libdb4.6-dev, libdb4.7-dev
+Filename: pool/libdb4.8-dev/amd64/libdb4.8-dev_4.8.30-bionic3_amd64.deb
+Size: 647568
+MD5sum: 90bdecb390e37127e8bfd940303f657d
+SHA1: 206984422bcda9b62e6210793ec19aa4fdbb2a01
+SHA256: 188247c79dba07daf760c9baa96f5d50086c6a463f49c2895f26a6bef976f088
+Section: libdevel
+Priority: extra
+Homepage: http://www.oracle.com/technology/software/products/berkeley-db/index.html
+Description: Berkeley v4.8 Database Libraries [development]
+ This is the development package which contains headers and static
+ libraries for the Berkeley v4.8 database library.
+
+Package: scribe
+Version: 1-v0.2
+Architecture: amd64
+Maintainer: Scribe Network
+Depends: libdb4.8-dev,
+  libdb4.8++-dev,
+  libboost-system-dev,
+  libboost-filesystem-dev,
+  libboost-program-options-dev,
+  libboost-thread-dev,
+  libboost-test-dev,
+  libevent-dev
+Filename: pool/scribe/amd64/scribe-bionic-x64.deb
+Size: 9441504
+MD5sum: 232ab54c14d373973c53a114ebf30a2c
+SHA1: d3d96c12690ba56a6c6655c87d8f860c388b1cfd
+SHA256: aa6c0c9a07da7f9e2f9d492fa6d836cd0da1a0002ee931c62966d842b643b78f
+Description:
+  Scribe wallet for Ubuntu:18.04 Bionic.
+  Package contents scribed, scribe-cli, scribe-tx and scribe-qt.
+  Wallet version: 120203
+  Protocol version: 70209
+  Commit: caac30158760f65b5430f1901fd9d54c32f2ed15
+  https://github.com/scribenetwork/scribe/tree/v0.2
+  https://scribe.network/
+

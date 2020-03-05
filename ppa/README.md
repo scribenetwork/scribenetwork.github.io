@@ -11,6 +11,12 @@ wget -qO - https://scribe.network/ppa/ubuntu/xenial/scribe.list > /etc/apt/sourc
 apt update
 ```
 
+### Add repo Ubuntu 18.04:
+```
+wget -qO - https://scribe.network/ppa/ubuntu/bionic/scribe.list > /etc/apt/sources.list.d/scribe.list
+apt update
+```
+
 ### Add repo Debian 9:
 ```
 apt install apt-transport-https
