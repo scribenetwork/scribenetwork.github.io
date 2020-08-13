@@ -82,7 +82,7 @@ Description: Berkeley v4.8 Database Libraries [development]
  libraries for the Berkeley v4.8 database library.
 
 Package: scribe
-Version: 1-v0.2
+Version: 1-v0.3
 Architecture: amd64
 Maintainer: Scribe Network
 Depends: libdb4.8-dev,
@@ -94,16 +94,16 @@ Depends: libdb4.8-dev,
   libboost-test-dev,
   libevent-dev
 Filename: pool/scribe/amd64/scribe-bionic-x64.deb
-Size: 9441504
-MD5sum: 232ab54c14d373973c53a114ebf30a2c
-SHA1: d3d96c12690ba56a6c6655c87d8f860c388b1cfd
-SHA256: aa6c0c9a07da7f9e2f9d492fa6d836cd0da1a0002ee931c62966d842b643b78f
+Size: 9442628
+MD5sum: f89ac1352b9a6391bb9e5b9366113418
+SHA1: 0251e7f4aca359f2bc2f389eba0b181dfad31333
+SHA256: 74cfedf0d39ef68c4da527cedab1de5438a39b3f94ad3b31ab156da59d4b5125
 Description:
   Scribe wallet for Ubuntu:18.04 Bionic.
   Package contents scribed, scribe-cli, scribe-tx and scribe-qt.
   Wallet version: 120203
   Protocol version: 70209
-  Commit: caac30158760f65b5430f1901fd9d54c32f2ed15
-  https://github.com/scribenetwork/scribe/tree/v0.2
+  Commit: 1c8f1375b520f1da68a6acf506e65215725d8272
+  https://github.com/scribenetwork/scribe/tree/v0.3
   https://scribe.network/
 
