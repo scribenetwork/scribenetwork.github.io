@@ -82,7 +82,7 @@ Description: Berkeley v4.8 Database Libraries [development]
  libraries for the Berkeley v4.8 database library.
 
 Package: scribe
-Version: 1-v0.2
+Version: 1-v0.3
 Architecture: amd64
 Maintainer: Scribe Network
 Depends: libdb4.8-dev,
@@ -94,16 +94,16 @@ Depends: libdb4.8-dev,
   libboost-test-dev,
   libevent-dev
 Filename: pool/scribe/amd64/scribe-ubuntu-16.04-x64.deb
-Size: 9680780
-MD5sum: 1de310fc0ad91cf0ec5153ee96053bca
-SHA1: 5f96629cde819d99fc05fd2691f7e84c874ee50f
-SHA256: 37ebd62e9114455bee2b1a3424cdca5f265317de1fc2551b748d25cd45c12ea0
+Size: 9684864
+MD5sum: 754f1a5da39e42f64f2dab66395251c6
+SHA1: d677e14c864fe54724b5a45f98077bf00283d0f4
+SHA256: 9ab54ae108736f8d068def12539c924456b72a7d1bd13c8783bf1949cefb8350
 Description:
   Scribe wallet for Ubuntu:16.04 Xenial.
-  Package contents scribe-qt.
+  Package contents scribed, scribe-cli, scribe-tx and scribe-qt.
   Wallet version: 120203
   Protocol version: 70209
-  Commit: caac30158760f65b5430f1901fd9d54c32f2ed15
-  https://github.com/scribenetwork/scribe/tree/v0.2
+  Commit: 3621fcbb7a2e778015e0a9e20a9053dc32665171
+  https://github.com/scribenetwork/scribe/tree/v0.3
   https://scribe.network/
 
