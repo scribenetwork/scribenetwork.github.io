@@ -82,7 +82,7 @@ Description: Berkeley v4.8 Database Libraries [development]
  libraries for the Berkeley v4.8 database library.
 
 Package: scribe
-Version: 1-v0.2
+Version: 1-v0.3
 Architecture: amd64
 Maintainer: Scribe Network
 Depends: libdb4.8-dev,
@@ -94,16 +94,16 @@ Depends: libdb4.8-dev,
   libboost-test-dev,
   libevent-dev
 Filename: pool/scribe/amd64/scribe-debian-10-x64.deb
-Size: 9534812
-MD5sum: 8c40a7691f2c078e59f843316a0db03e
-SHA1: 24013496ca7cf55a6fc0e53dd4872dbfc05e7cab
-SHA256: 0432932b68b2292d5ef431c80be6a6a08042531d77c81406e3446b0f06f3e561
+Size: 9538004
+MD5sum: 48974514b8fa9e2afb4502d944992894
+SHA1: 461531ae2c4d0a7bdee1811ac39bdfcf57f63c55
+SHA256: 0b29c581d075cd561f0d91bc4b77270fac50e94aaa38eb0241975fbbe6bcc925
 Description:
   Scribe wallet for Debian 10 Buster.
   Package contents scribed, scribe-cli, scribe-tx and scribe-qt.
   Wallet version: 120203
   Protocol version: 70209
-  Commit: a8a78e8d8380e8877544cb5235f90fdb2caa5472
-  https://github.com/scribenetwork/scribe/tree/v0.2
+  Commit: 3621fcbb7a2e778015e0a9e20a9053dc32665171
+  https://github.com/scribenetwork/scribe/tree/v0.3
   https://scribe.network/
 
