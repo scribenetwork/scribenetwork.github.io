@@ -81,3 +81,29 @@ Description: Berkeley v4.8 Database Libraries [development]
  This is the development package which contains headers and static
  libraries for the Berkeley v4.8 database library.
 
+Package: scribe
+Version: 1-v0.3
+Architecture: armhf
+Maintainer: Scribe Network
+Depends: libdb4.8-dev,
+  libdb4.8++-dev,
+  libboost-system-dev,
+  libboost-filesystem-dev,
+  libboost-program-options-dev,
+  libboost-thread-dev,
+  libboost-test-dev,
+  libevent-dev
+Filename: pool/scribe/armhf/scribe-arm-linux-gnueabihf.deb
+Size: 23232556
+MD5sum: 47a73ce86476c41b61b0c2e4089b57d3
+SHA1: 47a652fc6ffa13aedd60a41bded5c5b60c5bcd6b
+SHA256: 052c080f5860ee84333df23d6be23157fcf06c9f24433c3683681694929449d3
+Description:
+  Scribe wallet for ARM 32-bit.
+  Package contents scribed, scribe-cli, scribe-tx and scribe-qt.
+  Wallet version: 120203
+  Protocol version: 70209
+  Commit: 3621fcbb7a2e778015e0a9e20a9053dc32665171
+  https://github.com/scribenetwork/scribe/tree/v0.3
+  https://scribe.network/
+
