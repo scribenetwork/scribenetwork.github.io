@@ -30,6 +30,12 @@ wget -qO - https://scribe.network/ppa/debian/buster/scribe.list > /etc/apt/sourc
 apt update
 ```
 
+### Add repo Raspbian 10:
+```
+wget -qO - https://scribe.network/ppa/raspbian/buster/scribe.list > /etc/apt/sources.list.d/scribe.list
+apt update
+```
+
 ### Install Scribe:
 ```
 apt install scribe
