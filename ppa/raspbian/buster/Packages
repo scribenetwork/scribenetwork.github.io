@@ -94,10 +94,10 @@ Depends: libdb4.8-dev,
   libboost-test-dev,
   libevent-dev
 Filename: pool/scribe/armhf/scribe-arm-linux-gnueabihf.deb
-Size: 23232556
-MD5sum: 47a73ce86476c41b61b0c2e4089b57d3
-SHA1: 47a652fc6ffa13aedd60a41bded5c5b60c5bcd6b
-SHA256: 052c080f5860ee84333df23d6be23157fcf06c9f24433c3683681694929449d3
+Size: 22879348
+MD5sum: 47fa7ec5b510843db0417c5d4569a3aa
+SHA1: cb46aa9324c151ceffdaaa6c4a08daaf96cf8a2e
+SHA256: 34fea2bc4be665f0346f92a23aab6bc77928c928fdda4d26717e16ce98965720
 Description:
   Scribe wallet for ARM 32-bit.
   Package contents scribed, scribe-cli, scribe-tx and scribe-qt.
