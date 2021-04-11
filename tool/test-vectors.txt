@@ -1,0 +1,54 @@
+/*
+
+@link https://en.bitcoin.it/wiki/BIP_0032
+
+*** Test Vectors ***
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+BIP39:
+hdseed:                                     b27527c1458b7d6d7278c4af5cd0fc3365b297110badd5182e3c4134f7850bf48b61ddef2605134c65bbe6b4c497144ebd67a65701c9302dc6b32e2b313c8f43
+mnemonic:                                   trend refuse also book unknown post cinnamon issue guess oval dumb industry caution
+                                            kiss wood they raccoon price find bridge enemy vendor suspect black
+mnemonicpassphrase:                         my super-secret
+
+BIP32:
+extended private masterkey:                 xprv9s21ZrQH143K3qtLHf2C7j3PAPUyNo8UuqwYF2PKGEXquMkhBbchcxA7Cmuo679rGNYa7NFK1wpNxt4tPN12HsqXRNZkp6fEAg3z36WBsgG
+extended public masterkey:                  xpub661MyMwAqRbcGKxoPgZCUrz7iRKTnFrLH4s93Qnvpa4pnA5qj8vxAkUb44eVQ78xt9EK141kEfaefN2rXua62FdjVaZvR7FGGDr4DzdEKjB
+
+BIP44:
+~~~~~~
+                                            Scribe
+                                            mainnet:
+                                            - P2PKH:    0x3c
+                                            - P2SH:     0x7d
+                                            - purpose:  545
+                                            - xpub:     0x0488B21E
+                                            - xprv:     0x0488ADE4
+                                            - WIF:      0x6e
+
+Account Extended Private Key:               xprv9z2se9PPxVasD4YrToKcAgnx4h8f399rEXan7yeQiSTDLkteyRtfAJo4D4UZ6MUWAR6F1qY8hsYrYCZH8ATvajXeiWK9Efqgtr6TEqr1orx
+Account Extended Public Key:                xpub6D2E3evHns9ARYdKZprcXpjgciy9SbshbkWNvN42GmzCDZDoWyCui77Y4KPmNL8CYYGRriePz1co6KM4BrUSBtepAcD7mP1B2YTKM3s9SjJ
+    EXTERNAL:
+        BIP32 Extended Private Key:         xprv9zgjfwkUQQbVgqixXT6upsE7y4gndyM3LKdQq3rXoCnRBe5GNxrHJuvJzqHNKrkhpokJSf7242UMWmd4NtVg5Ne7h4qbXBLWd5ub7g2Xx6F
+        BIP32 Extended Public Key:          xpub6Dg65THNEn9nuKoRdUdvC1ArX6XH3S4thYZ1dSG9MYKQ4SQQvWAXriEnr6FQNHJ3JSjgWf3t6tytUiECiE7dsdZ5x7iabd7ZsbcHeypAhEs
+            UNHARDENED:
+                Derivation path:            m/44'/545'/0'/0/0
+                Derived Address:            RUJxyPvry34tfRb4rZjMyrZoateLufxRP7
+                Derived Private key:        HNyfhopJuoPpW43naYUWHWSJWLHfpWAwbVrt5jSgAbeCvqXcc6jG
+            HARDENED:
+                Derivation path:            m/44'/545'/0'/0/0'
+                Derived Address:            RMyTeZMkfoqzLSvSDsQBKGcE8sFBy4nftQ
+                Derived Private key:        HHCYmV9mUS4nrLLTzTgDbvxaLqd865fqurcbxMsqN2FLkvrzkv98
+    INTERNAL:
+        BIP32 Extended Private Key:         xprv9zgjfwkUQQbVmY1Tse6Yf9XBL5CHMuNGESVeB5cP1vUbLRFzyf4K3Lbhee9rNQGdK25151GHnrhMaYgk2v1KjFS1nHz5rgAteUYTuCGs197
+        BIP32 Extended Public Key:          xpub6Dg65THNEn9nz25vyfdZ2HTut72mmN67bfREyU1zaG1aDDb9XCNZb8vBVwx5b7Yxh2gUTfPtEjGbVABkHipHPdF1wNaHrqLrE14sPDXSDWM
+            UNHARDENED:
+                Derivation path:            m/44'/545'/0'/1/0
+                Derived Address:            RKHuj5kEWgnHYdQvC49mFU1UxybB9oZhG2
+                Derived Private key:        HHC8w4519rJkuxwJr2oRSvNGu7qM8BBAcyVzRXevVxzHxWxQU7ra
+            HARDENED:
+                Derivation path:            m/44'/545'/0'/1/0'
+                Derived Address:            RTwLfaCMMFeGTdTjuGU12zUnn5TAhqsA5P
+                Derived Private key:        HQkuZnebFjboJtz7Zbbw5SHpbvky7GLUyhRFS7zQ28vs2ZWTEQc8
+
+*/
